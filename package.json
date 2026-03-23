@@ -1,0 +1,32 @@
+{
+  "name": "scout",
+  "version": "1.0.0",
+  "description": "AI-powered Playwright test generator — give it a URL, get a test suite",
+  "main": "dist/index.js",
+  "bin": {
+    "scout": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "scout": "node dist/index.js"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "ai",
+    "qa",
+    "automation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^17.3.1",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
